@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="166.32121mm"
+   height="159.36263mm"
+   viewBox="0 0 166.32121 159.36262"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (6e3e5246a0, 2020-05-07)"
+   sodipodi:docname="palmtree.svg">
+  <defs
+     id="defs2">
+    <filter
+       inkscape:label="Bark"
+       inkscape:menu="Textures"
+       inkscape:menu-tooltip="Bark texture, vertical; use with deep colors"
+       style="color-interpolation-filters:sRGB"
+       id="filter139">
+      <feTurbulence
+         seed="10"
+         baseFrequency="0.12 0.02"
+         numOctaves="10"
+         type="fractalNoise"
+         id="feTurbulence117" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.7 0 "
+         result="result5"
+         id="feColorMatrix119" />
+      <feComposite
+         in2="result5"
+         operator="out"
+         in="SourceGraphic"
+         id="feComposite121" />
+      <feMorphology
+         result="result3"
+         radius="1.3"
+         operator="dilate"
+         id="feMorphology123" />
+      <feTurbulence
+         seed="25"
+         type="turbulence"
+         baseFrequency="0.08 0.05"
+         numOctaves="8"
+         result="result91"
+         id="feTurbulence125" />
+      <feDisplacementMap
+         result="result4"
+         scale="5"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result3"
+         in2="result91"
+         id="feDisplacementMap127" />
+      <feSpecularLighting
+         specularExponent="35"
+         specularConstant="1"
+         surfaceScale="2"
+         lighting-color="#ffffff"
+         result="result1"
+         in="result4"
+         id="feSpecularLighting131">
+        <feDistantLight
+           azimuth="235"
+           elevation="75"
+           id="feDistantLight129" />
+      </feSpecularLighting>
+      <feComposite
+         operator="in"
+         result="result2"
+         in="result1"
+         in2="result4"
+         id="feComposite133" />
+      <feComposite
+         k4="0"
+         k1="0"
+         k3="1"
+         k2="1"
+         operator="arithmetic"
+         result="result4"
+         in="result4"
+         in2="result2"
+         id="feComposite135" />
+      <feBlend
+         mode="multiply"
+         in2="result4"
+         id="feBlend137" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Roughen"
+       id="filter271">
+      <feTurbulence
+         type="fractalNoise"
+         numOctaves="5"
+         seed="1"
+         baseFrequency="0.013 0.013"
+         result="turbulence"
+         id="feTurbulence267" />
+      <feDisplacementMap
+         in="SourceGraphic"
+         in2="turbulence"
+         scale="6.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         id="feDisplacementMap269" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="214.83876"
+     inkscape:cy="224.63108"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1261"
+     inkscape:window-height="974"
+     inkscape:window-x="401"
+     inkscape:window-y="47"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-32.139899,-74.363997)"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g13">
+      <path
+         id="path10"
+         d="M 109.2766,233.29819 C 99.726194,217.61924 122.06333,83.53645 122.06333,83.53645 L 105.0807,77.769015 c 0,0 -23.574371,82.247105 -17.119154,155.823635 z"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:#d45500;stroke:none;stroke-width:2.85714;filter:url(#filter139)"
+       d="m 332.7585,859.92814 c -3.20791,-34.23323 0.47333,-189.56317 5.58461,-235.64243 10.72865,-96.721 27.12778,-192.10007 47.95103,-278.88828 l 11.72986,-48.88828 30.97984,10.23491 c 23.70687,7.83211 30.67709,11.26027 29.69025,14.60256 -5.95454,20.16719 -39.5677,268.11235 -49.00886,361.51052 -4.68228,46.32029 -7.19195,164.5958 -3.97094,187.14286 l 1.42857,10 -36.17698,0.79777 -36.17698,0.79777 z"
+       id="path29"
+       transform="scale(0.26458333)" />
+    <g
+       class="leaf"
+       id="g115"
+       transform="translate(-0.07889884,-5.3022788)">
+      <path
+         id="leaf8"
+         d="m 115.37941,79.773551 c 0,0 -3.22715,39.667059 21.97132,57.638349 25.19847,17.97128 25.19847,17.97128 25.19847,17.97128 0,0 -11.71097,-68.215702 -47.16979,-75.609629 z"
+         style="stroke:#000000;stroke-width:0.165306px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         inkscape:label="#leaf8" />
+      <path
+         style="stroke:#000000;stroke-width:0.168218px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 115.37941,79.773551 c 0,0 -5.67866,23.343989 38.66182,33.920059 44.34047,10.57607 44.34047,10.57607 44.34047,10.57607 0,0 -20.6072,-40.144816 -83.00229,-44.496129 z"
+         id="leaf6"
+         inkscape:label="#leaf6" />
+      <path
+         style="stroke:#000000;stroke-width:0.194944px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 115.37941,79.773551 c 0,0 -5.19895,34.244019 35.39583,49.758369 40.59477,15.51437 40.59477,15.51437 40.59477,15.51437 0,0 -18.86639,-58.889659 -75.9906,-65.272739 z"
+         id="leaf7"
+         inkscape:label="#leaf7" />
+      <path
+         d="m 115.26529,79.77056 c 0,0 -5.65434,9.7069 38.4963,14.104645 44.15063,4.397747 44.15063,4.397747 44.15063,4.397747 0,0 -20.51896,-16.693028 -82.64693,-18.502392 z"
+         style="stroke:#000000;stroke-width:0.108241px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="leaf5"
+         inkscape:label="leaf5" />
+      <path
+         style="stroke:#000000;stroke-width:0.165306px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 115.37941,79.773551 c 0,0 3.22715,39.667059 -21.97133,57.638349 -25.19847,17.97128 -25.19847,17.97128 -25.19847,17.97128 0,0 11.71098,-68.215702 47.1698,-75.609629 z"
+         id="leaf1"
+         inkscape:label="#leaf1" />
+      <path
+         id="leaf3"
+         d="m 115.37941,79.773551 c 0,0 5.67866,23.343989 -38.66183,33.920059 -44.34047,10.57607 -44.34047,10.57607 -44.34047,10.57607 0,0 20.6072,-40.144816 83.0023,-44.496129 z"
+         style="stroke:#000000;stroke-width:0.168218px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         inkscape:label="#leaf3" />
+      <path
+         id="leaf2"
+         d="m 115.37941,79.773551 c 0,0 5.19895,34.244019 -35.39584,49.758369 -40.59476,15.51437 -40.59476,15.51437 -40.59476,15.51437 0,0 18.86639,-58.889659 75.9906,-65.272739 z"
+         style="stroke:#000000;stroke-width:0.194944px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         inkscape:label="#leaf2" />
+      <path
+         style="stroke:#000000;stroke-width:0.108241px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 115.37941,79.773551 c 0,0 5.65434,9.7069 -38.4963,14.104645 -44.15064,4.397746 -44.15064,4.397746 -44.15064,4.397746 0,0 20.51896,-16.693027 82.64694,-18.502391 z"
+         id="leaf4"
+         inkscape:label="#leaf4" />
+    </g>
+  </g>
+</svg>
