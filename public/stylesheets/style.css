@@ -29,8 +29,14 @@ a {
 
 }
 #palmTree{
-  height:500px;
-  width:625px;
+ width:70vw;
+ height:50vh;
+
+}
+#svg{
+  height:80%; 
+  width:80%;
+  margin:auto;
 }
 
 
