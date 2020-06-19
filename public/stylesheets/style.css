@@ -39,6 +39,15 @@ a {
   margin:auto;
 }
 
+.profilepic{
+  height:40vh;
+  margin:auto;
+  align-items:center;
+}
+.subscript{
+  font-style:italic;
+}
+
 
 /*** SVG demonstration ***/
 

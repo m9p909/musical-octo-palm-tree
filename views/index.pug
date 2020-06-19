@@ -1,39 +1,30 @@
 extends layout
 
-block navstuff
-  .container
-    .navbar-header
-      a.navbar-brand(href="#") Super Tech Hub
-    ul.nav.navbar-nav
-      li
-        a(href="#") Placeholder for new and exciting tech
-      li
-        a(href="#") Placeholder for new and exciting tech
-      li
-        a(href="#") Placeholder for new and exciting tech
-
 block content
- 
-    h1 Welcome to the Musical octo palm tree
-    div(id='palmTree')
-      svg(id = "svg"  preserveAspectRatio="xMidYMid meet")
-    .description
-      h2 Why a palm tree?
-      p I planned to make something entirely different, but github gave the randomly generated repo title "octo-musical-palm-tree". I realised that there truly are not enough of these around so I made one. Problem solved
-      br
-      p Using only the latest in musical palm tree technology, this palm tree can make several musical notes such as A and B.
-      | In addition the leaves are displayed in only the most pristine SVG graphics available to modern(post-2000) browsers.
-      | As seen above, this is a free version of the new and upcoming palm-tree technology
-      | the next one will be plated gold and feature 8 sounds from multiple instruments in multiple octaves including bagpipes.
-      | Please donate 1 million dollars 
-      a(href = "https://www.partyrhino.ca/en/donations/") here
-      |  if you would like to experience this revolutionary and disruptive technology.
+    script(src="javascripts/nonrandomimagegen.js")
+    h1 Welcome to Jack's site for Advanced Technology
+    h3 Here you will find musical palm trees, gaydar and more. Except not more cause I haven't done that yet
+    -
+        var imageURLs = [
+        "images/external-content.duckduckgo.com.jpeg"
+        , "images/jack.jpeg"
+        , "images/jack2.jpeg",
+        "images/jackcard.jpeg",
+        "images/jacklayton.jpeg",
+        "images/jackskull.jpeg",
+        "images/jackblack.jpeg"
+        ];
+    - var img;
+    - var randomIndex = Math.floor(Math.random() * imageURLs.length);
+    - img = imageURLs[randomIndex];
+    img(src=img class="profilepic")
+    p.subscript this is a picture of me
 
-
-      
-  
-
-
-
-
-    
+    p As you can see I am a very handsome man, baby or skeleton by the name of Jack. I like stairs, bubblegum,kicking ass, jokes about kicking ass and chewing bubblegum, not swearing, and doing other really fun stuff
+    | Some would say that I'm the best person ever, those people would be very right
+    | I'm basically the mesiah of whatever religion you believe in 
+    | I also like 
+    a(href = "https://youtu.be/vyItidbjxLM") trains
+    | . Also watch out for stairs, I warned you about 
+    a(href = "http://www.mspaintadventures.com/sweetbroandhellajeff/" class = "stairs") stairs bro
+    | . 

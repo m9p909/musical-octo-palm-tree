@@ -10,13 +10,21 @@ html
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js')
     script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js')
 
-    script(src = "/javascripts/snap.svg-min.js")
+    
 
 nav.navbar.navbar-default 
-  block navstuff
+    .container
+    .navbar-header
+      a.navbar-brand(href="/") Super Tech Hub
+    ul.nav.navbar-nav
+      li
+        a(href="/OctoPalmMusicalTree") OctoPalmMusicalTree
+      li
+        a(href="#") Placeholder for new and exciting tech
+      li
+        a(href="#") Placeholder for new and exciting tech
 
 body
   .main.container
     block content
 
-script(src = '/javascripts/palmTree.js')
