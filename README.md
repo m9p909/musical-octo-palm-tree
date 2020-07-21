@@ -16,4 +16,4 @@ go to program folder,
 ## Deployed to heroku for testing:
 
 https://testing-master-rniwacdb20jbhl2.herokuapp.com/
-note: it will take a second to load since it's not a proudction server
+note: it will take a second to load since it's not a prouduction server
