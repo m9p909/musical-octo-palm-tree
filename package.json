@@ -13,7 +13,7 @@
     "constantinople": "^4.0.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "gh-pages": "^3.2.3",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
